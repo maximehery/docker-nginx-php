@@ -17,7 +17,7 @@ RUN add-apt-repository ppa:ondrej/php -y
 RUN apt update && apt upgrade -y
 
 # On installe NGINX et on supprime le cache de tous les packages
-RUN apt install nginx supervisor php8.3 php8.3-fpm php8.3-cli -y && \
+RUN apt install nginx supervisor php8.3 php8.3-fpm php8.3-cli php8.3-xml -y && \
     rm -rf /var/lib/apt/lists/* && \
     apt clean
 

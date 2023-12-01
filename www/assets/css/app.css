@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+
+header {
+  align-items: center;
+  background: #0D0C1D;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  width: 100%;
+}
+
+header h1 {
+  color: #FFFFFF;
+}
+
+.test {
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  height: 100%;
+}
+
+.test .test1 {
+  background: #161B33;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+
+.test .test1 .pp {
+  background: #000000 url(../images/pp.jpg) no-repeat bottom center;
+  background-size: contain;
+  border-radius: 12px;
+  height: 200px;
+}
+
+.test .test1 p {
+  color: #FFFFFF;
+}
+
+.test .test2 {
+  background: #F1DAC4;
+  display: flex;
+  color: #0D0C1D;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.test .test2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.test .test2 ul li {
+  font-weight: 500;
+}
